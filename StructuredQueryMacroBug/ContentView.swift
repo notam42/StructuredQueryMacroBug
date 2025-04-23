@@ -7,6 +7,13 @@
 
 import SwiftUI
 
+@Table
+struct User {
+  var id: Int
+  var email: String? // comment
+  var age: Int
+}
+
 struct ContentView: View {
     var body: some View {
         VStack {
